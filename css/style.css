@@ -1,0 +1,351 @@
+body {
+	background: #eeeeee;
+	font-family: 'Varela Round', sans-serif;
+}
+
+li {
+	padding-right: 40px;
+	display: inline;
+}
+
+.menu {
+	width: 100%;
+	height: 100px;
+	background: #938107;
+}
+
+.styleMenu {
+	float: right;
+	padding-right: 170px;
+	padding-top: 40px;
+}
+
+.logo {
+	float: left;
+	padding-top: 3px;
+	padding-left: 150px;
+
+}
+
+.clickMenu {
+	color: #fff;
+	font-size: 17px;
+	font-family: 'Varela Round', sans-serif;
+}
+.clickMenu:hover {
+	color: #6ea7d2;
+	text-decoration: none;
+}
+
+.video {
+	float: left;
+	margin-top: 80px;
+	margin-left: -80px;
+}
+
+.textVideo {
+	float: left; 
+	width: 760px;
+	height: 200px;;
+	color: #000;
+	margin-top: 20px;
+	margin-left: 300px;
+	text-align: center;
+}
+
+.tabTextVideo {
+	float: left;
+	padding-left: 265px;
+	padding-top: 170px;
+}
+
+.colorText {
+	color: #b6b6b6;
+}
+.colorText:hover {
+	color: #5d5d5d;
+	transition: 1.3s;
+}
+.colorText:visited {
+	color: #5d5d5d;
+}
+
+.textContent {
+	text-align: center;
+	float: left;
+	margin-top: -150px;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.btnEbook {
+	float: left;
+	width: 300px;
+	height: 60px;
+	background: #c8af06;
+	border: none;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 20px;
+	border-radius: 50px;
+	color: #fff;
+	margin-left: 230px;
+	margin-top: 20px;
+}
+.btnEbook:hover {
+	border: 2px solid black;
+}
+.btnEbook:focus {
+	outline: none;
+}
+
+.quadroInfo {
+	float: left;
+	width: 100%;
+	height: 500px;
+	margin-top: 90px;
+	background: linear-gradient(#6ea7d2, #44657e);
+}
+
+.textInfo {
+	float: left;
+	width: 49%;
+	height: 496px;
+	margin: 1px;
+}
+
+.imgInfo {
+	float: left;
+	width: 50%;
+	height: 496px;
+	margin: 1px;
+	padding-left: 50px;
+	margin-top: -20px;
+	transform: rotate(30deg);
+}
+
+.textInfo h2 {
+	color: #fff;
+	float: left;
+	padding-left: 10px;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.textInfo p {
+	color: #fff;
+	float: left;
+	padding-left: 10px;
+	text-align: justify;
+	padding-top: 20px;	
+	font-family: 'Varela Round', sans-serif;
+}
+
+.rodape {
+	float: left;
+	width: 100%;
+	height: 100px;
+	background: #000;
+	margin-top: 50px;
+	bottom: 0;
+}
+
+.rodape p {
+	float: right;
+	color: #fff;
+	padding-top: 70px;
+	padding-right: 20px;
+}
+
+/*Conteudo*/
+
+.btnConteudo{
+	float: left;
+	width: 100px;
+	height: 60px;
+	background: #6ea7d2;
+	border: none;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 16px;
+	border-radius: 50px;
+	color: #fff;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+
+.infCont{
+	float: left;
+	height: 300px;
+	width: 100%;
+}
+
+.tituloCont{
+	color: #000;
+	font-size: 30px;
+	float: left;
+	margin-top: 45px;
+	margin-left: 90px;
+	font-family: 'Varela Round', sans-serif;
+}
+.imgIcon1{
+	float: left;
+	height: 40px;
+	margin: 1px;
+	padding-left: 40px;
+}
+
+.icons{
+	color: #000;
+	float: left;
+	margin-top: 90px;
+	margin-left: -510px;
+}
+.icon1{
+	color: #000;
+	float: left;
+	margin-top: 50px;
+	margin-left: -530px;
+}
+.icon2{
+	color: #000;
+	float: left;
+	margin-top: 50px;
+	margin-left: -261px;
+}
+.icon3{
+	color: #000;
+	float: left;
+	margin-top: 50px;
+
+}
+.tituloIcon1{
+	color: #000;
+	font-family: 'Varela Round', sans-serif;
+	text-align: center;
+	font-size: 17px;
+	margin-left: -31px;
+}
+.tituloIcon2{
+	color: #000;
+	font-family: 'Varela Round', sans-serif;
+	color: #000;
+	text-align: center;
+	margin-left: -31px;
+	font-size: 17px;
+}
+ .txtIcon{
+	font-family: 'Varela Round', sans-serif;
+	color: #000;
+	width: 240px;
+	margin-left: -100px;
+	font-size: 18px;
+} 
+ .txtIcon2{
+	font-family: 'Varela Round', sans-serif;
+	color: #000;
+	width: 240px;
+	margin-left: -50px;
+	font-size: 18px;
+} 
+.xx{
+	width: 100%;
+	height: 150px;
+}
+.txtPag1{
+	color: #000;
+	float: left;
+	margin-left: 111px;
+	font-size: 17px;
+}
+
+.titContPag{
+	color: #000;
+	float: left;
+ 	margin-left: 391px;
+}
+.fimCont{
+	margin-top: 410px;
+	font-size: 31px;
+	color: #000;
+	text-align: center;
+}
+.btnEbook1 {
+	float: left;
+	width: 300px;
+	height: 60px;
+	background: #67a42c;
+	border: none;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 20px;
+	border-radius: 50px;
+	color: #fff;
+	margin-left: 510px;
+	margin-top: 20px;
+}
+.btnEbook1:hover {
+	border: 2px solid black;
+}
+.btnEbook1:focus {
+	outline: none;
+}
+
+/*Contato*/
+
+.imgRobson{
+	margin-top: 150px;
+	margin-left: 20px;
+	border-radius: 200px;
+}
+ .imgEmail{
+	margin-top: -200px;
+	margin-left: 200px;
+}
+.imgTelefone{
+	margin-top: 15px;
+	margin-left: 220px;
+}
+.imgFb{
+	margin-top: 25px;
+	margin-left: 220px;
+}
+.styleContato{
+	height: 300px;
+	width: 100%;
+}
+.styleComent{
+	color: #000;
+ 	margin-left:  700px;
+ 	margin-top: -300px;
+}
+.rodape1 {
+	float: left;
+	width: 100%;
+	height: 100px;
+	background: #000;
+	margin-top: 174px;
+	bottom: 0;
+}
+
+.rodape1 p {
+	float: right;
+	color: #fff;
+	padding-top: 70px;
+	padding-right: 20px;
+}
+
+.infoLivro {
+	width: 700px;
+	height: 300px;
+	margin-top: 150px;
+	float: left;
+	margin-left: 0px;
+}
+
+.infoLivro p {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 30px;
+	color: black;
+
+}
+.imgLivro {
+	float: left;
+	margin-left: 270px;
+}

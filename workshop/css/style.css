@@ -1,0 +1,119 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+/*  */
+
+.principal {
+	width: 100%;
+  	display: flex;  
+  	flex-flow: column;
+}
+
+/* CABEÇALHO*/
+.header {
+	background: #fff29d;
+}
+
+.logo {	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: auto;
+}
+
+/* FIM CABEÇALHO  */
+
+/* VIDEO CENTRAL*/
+.aside-1{
+	background:  #fff;
+}
+
+.mySlides{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+
+/* FIM VIDEO CENTRAL */
+
+/* LISTA SELECIONAVEL */
+
+.article{
+	background: linear-gradient(#565656, #404040);
+	text-align: center;
+
+}
+
+.style-midia{
+	opacity: 0.20;
+	display: inline-block;
+	height: 250px;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	cursor: pointer;
+}
+
+.style-midia:hover{
+	opacity: 1;
+}
+
+
+
+.btnEbook {
+	/* */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	/*desing botton*/
+	width: 200px;
+	height: 40px;
+	background: #fff29d;
+	border: none;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 20px;
+	border-radius: 3px;
+	color: #000;
+}
+.btnEbook:hover {
+	border: 2px solid black;
+}
+.btnEbook:focus {
+	outline: none;
+}
+
+
+
+
+/* FIM LISTA SELECIONAVEL */
+
+
+.rodape {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	background: #333;
+	height: 3%;
+}
+
+.rodape p {
+	height: 1%;
+	float: right;
+	color: white;
+	padding-right: 20px;
+}
+
