@@ -19,7 +19,8 @@ body {
 
 /* CABEÇALHO*/
 .header {
-	background: #fff29d;
+
+	background-image: linear-gradient(to bottom, #938107 53% ,#fff 47%);
 }
 
 .logo {	

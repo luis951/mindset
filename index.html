@@ -8,10 +8,20 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+	<link rel="icon" href="img/logo.png">
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.js"></script>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.0';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
 	<header>
 		<div class="menu">
 			<div>
@@ -31,17 +41,13 @@
 
 	<nav>
 		<div class="video">
-			<p align="center" style="font-size: 30px;"> Como criar uma Mentalidade Vencedora</p>
+			<p align="center" style="font-size: 30px; color: #000; margin-top: -40px; margin-left: 60px"> Como criar uma Mentalidade Vencedora</p>
 			<iframe name="video" width="800" height="420" src="https://www.youtube.com/embed/cA1T--aFzWs?controls=0&rel=0"frameborder="0" allowfullscreen></iframe>
 		</div>
-
 		<div class="textVideo">
-
 			<a href="workshop/index.html">
 				<button type="button" class="btnEbook" name="ebook">Participe do Workshop Gratuitamente!</button>
 			</a>
-
-
 			<ul class="tabTextVideo" role="tablist">
 				<li class="active"><section class="glyphicon glyphicon-adjust colorText"></section></li>
 				<li><section class="glyphicon glyphicon-adjust colorText"></section></li>
@@ -49,22 +55,27 @@
 				<li><section class="glyphicon glyphicon-adjust colorText"></section></li>
 			</ul>
 
-			<div class="tab-content">
-				<div class="tab-pane active textContent" role="tabpanel" id="texttu" style="font-size: 30px;">
+			<!--<div class="tab-content">
+				<div class="tab-pane active textContent" role="tabpanel" id="texttu">
 					<p>Nesse Workshop você vai aprender qual o caminho neural que seu pensamento faz para entrar em ação</p>
 					<p>Como vencer a proscrastinação e seus medos que te prendem na zona de conforto</p>
 					<p>E principalmente você vai aprender como controlar seus pensamentos e sentimentos, para entrar em fluxo com o Universo para se sentir feliz e realizado</p>
 				</div>
-			</div>
+			</div>-->
 		</div>
 
 		<section class="quadroInfo">
 			<div class="textInfo">
+				<br><br><br><br>
+				<p>Nesse Workshop você vai aprender qual o caminho neural que seu pensamento faz para entrar em ação</p>
+				<p>Como vencer a proscrastinação e seus medos que te prendem na zona de conforto</p>
+				<p>E principalmente você vai aprender como controlar seus pensamentos e sentimentos, para entrar em fluxo com o Universo para se sentir feliz e realizado
 			</div>
 
 			<div class="imgInfo">
 				<img src="img/ebook.png">
 			</div>
+			<div class="fb-comments" data-href="http://mindsetvencedor.com" data-width="581" data-numposts="5"></div>
 		</section>
 	</nav>
 
